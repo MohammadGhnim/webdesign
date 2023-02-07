@@ -4,7 +4,7 @@
 }
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0.05)50%,rgba(0,0,0.05)50%), url(1.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -59,12 +59,12 @@ ul li a:hover{
     float: left;
     margin-left: 270px;
 }
-.srch {
+.srch{
     font-family: 'Times New Roman';
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 1px, solid #ff7200;
+    border: 1px solid#ff7200;
     margin-top: 13px;
     color: #fff;
     border-right: none;
